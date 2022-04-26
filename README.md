@@ -27,3 +27,21 @@ IP Address: 192.168.1.90
 Capstone: Filebeat and Metricbeat are installed and will forward logs to the ELK machine.
 
 IP Address: 192.168.1.105 
+
+Using the Dashboards I added the following reports:
+
+HTTP status codes for the top queries [Packetbeat] ECS
+Top 10 HTTP requests [Packetbeat] ECS
+Network Traffic Between Hosts [Packetbeat Flows] ECS
+Top Hosts Creating Traffic [Packetbeat Flows] ECS
+Connections over time [Packetbeat Flows] ECS
+HTTP error codes [Packetbeat] ECS
+Errors vs successful transactions [Packetbeat] ECS
+HTTP Transactions [Packetbeat] ECS
+Using the search queries in the Discover screen with packetbeat I was tasked with the following:
+
+Identify the offensive traffic.
+Find the request for the hidden directory.
+Identify the brute force attack.
+Find the WebDAV connection.
+Identify the reverse shell and meterpreter traffic.
